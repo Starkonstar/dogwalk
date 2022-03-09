@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Выгуляй-ка</string>
+    <string name="no_user_input">Логин и пароль не верны, введите их повторно или зарегистрируйтесь</string>
+</resources>

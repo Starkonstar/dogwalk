@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft.brown"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Button_continue"
+        android:layout_width="221dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/average.brown"
+        android:scrollbarSize="4dp"
+        android:text="continue"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Button_sign_in"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/average.brown"
+        android:text="sign in"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Button_continue" />
+
+    <TextView
+        android:id="@+id/text_Access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Access"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Enter_login"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:scrollbarSize="8dp"
+        android:hint="Login"
+        android:textAlignment="center"
+        android:textColor="@color/dark.brown"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_Access" />
+
+    <EditText
+        android:id="@+id/Enter_password"
+        android:layout_width="216dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:scrollbarSize="8dp"
+        android:hint="Password"
+        android:textAlignment="center"
+        android:textColor="@color/dark.brown"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Enter_login" />
+
+</android.support.constraint.ConstraintLayout>
